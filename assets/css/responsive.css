@@ -1,0 +1,119 @@
+/* PC */
+@media (min-width: 64em) {}
+
+/* Tablet and mobile */
+@media (max-width: 63.9375em) {
+    .list-place .ticket-btn {
+        padding: 14px 18px;
+    }
+
+    .text-form {
+        padding: 15px;
+    }
+
+    .submit-content {
+        padding: 15px;
+    }
+
+    .sub-content-footer {
+        padding: 16px 0;
+        display: inline-block;
+    }
+
+    #nav .subnav a {
+        padding: 5px 12px;
+        display: inline-block;
+    }
+
+    .col-content {
+        line-height: 2;
+    }
+
+    #contact .col-content a {
+        color: #101aef;
+        opacity: 0.8;
+    }
+
+    #contact .col-content a:hover {
+        opacity: 1;
+    }
+}
+
+/* Tablet */
+@media (min-width: 46.25em) and (max-width: 63.9375em) {
+    .footer .social-list a {
+        font-size: 48px;
+        margin: 0px 16px;
+    }
+}
+
+/* Moblile */
+@media (max-width: 46.1875em) {
+    .s-col-full {
+        width: 100%;
+    }
+
+    .s-mt-8 {
+        margin-top: 8px;
+    }
+
+    .content .member-img {
+        width: 60%;
+    }
+
+    #nav>li a,
+    #nav {
+        display: block;
+    }
+
+    #nav li {
+        display: block;
+    }
+
+    #nav>li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+
+    }
+
+    .search-btn {
+        display: none;
+
+    }
+
+    .menu-btn {
+        display: block;
+    }
+
+    .menu-btn:hover {
+        background-color: #ccc;
+        color: #000;
+    }
+
+    .header {
+        overflow: hidden;
+    }
+
+    #nav .subnav li a {
+        color: white;
+        padding: 5px 42px;
+    }
+
+    #contact .col-content-input {
+        margin-top: 16px;
+    }
+
+    .footer .social-list a {
+        font-size: 24px;
+        margin: 0px 8px;
+    }
+
+    .slider .text-content {
+        display: none;
+    }
+
+}
